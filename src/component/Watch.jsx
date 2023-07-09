@@ -28,7 +28,7 @@ const Watch = () => {
               <iframe
                 src={filterData1.trailer}
                 title="youtube"
-                width="700px"
+                width="800px"
                 height="390px"
               ></iframe>
               <h1>{filterData1.title}</h1>
