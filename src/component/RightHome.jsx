@@ -84,7 +84,7 @@ const RightHome = () => {
           return (
             <Card
               key={idx}
-              w="260px"
+              w="320px"
               h="350px"
               m="4px auto"
               boxShadow="dark-lg"

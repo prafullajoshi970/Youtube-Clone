@@ -1,6 +1,6 @@
 const ActionCreator=(data)=>{
 return{
-  type:'electronics',
+  type:'Youtube',
   payload:data
 };
 };

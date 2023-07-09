@@ -7,7 +7,7 @@ var initialState = {
 const myreducer = (state = initialState, action) => {
 
   switch (action.type) {
-    case 'electronics':
+    case 'Youtube':
       return {
         ...state,
         product: action.payload
