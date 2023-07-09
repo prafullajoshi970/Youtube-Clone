@@ -22,13 +22,13 @@ const Watch = () => {
     <div>
       <Nav></Nav>
       <Flex>
-        <Box ml="40px">
+        <Box ml="40px"  w="70%">
           {filterData1 && (
             <>
               <iframe
                 src={filterData1.trailer}
                 title="youtube"
-                width="800px"
+                width="100%"
                 height="390px"
               ></iframe>
               <h1>{filterData1.title}</h1>
@@ -47,10 +47,10 @@ const Watch = () => {
             </>
           )}
         </Box>
-        <Box overflow={"scroll"} h="80vh" ml={"80px"}>
+        <Box overflow={"scroll"} h="80vh" ml={"80px"}  w="30%">
           {filterData.map((ele) => {
             return (
-              <Card w="250px">
+              <Card w="100%">
                 <CardBody>
                   <Flex>
                     <Box>
